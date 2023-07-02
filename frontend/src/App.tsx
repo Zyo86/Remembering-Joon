@@ -10,6 +10,7 @@ import * as NotesApi from "./network/notes_api";
 import NotesPage from './pages/NotesPage';
 import NotFoundPage from './pages/NotFoundPage';
 import PrivacyPage from './pages/PrivacyPage';
+import RememberingPage from './pages/RememberingPage';
 import styles from "./styles/App.module.css";
 
 function App() {
@@ -49,6 +50,10 @@ function App() {
 						<Route
 							path='/privacy'
 							element={<PrivacyPage />}
+						/>
+						<Route
+							path='/remembering'
+							element={<RememberingPage />}
 						/>
 						<Route
 							path='/*'
