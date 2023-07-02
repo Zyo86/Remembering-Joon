@@ -24,6 +24,9 @@ const NavBar = ({ loggedInUser, onSignUpClicked, onLoginClicked, onLogoutSuccess
                         <Nav.Link as={Link} to="/privacy">
                             Privacy
                         </Nav.Link>
+                        <Nav.Link as={Link} to="/remembering">
+                            Remembering
+                        </Nav.Link>
                     </Nav>
                     <Nav className="ms-auto">
                         {loggedInUser
